@@ -7,9 +7,13 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon nodemondemo.js"
   },
   "dependencies": {
-    "mongoose": "^9.1.5"
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
   }
 }
